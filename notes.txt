@@ -3,6 +3,12 @@ python3 -m venv
 python3 -m pip installvirtual env
  python3 -m venv venv
 
+ python3. server
+
+ stop server: control c
+
+ install:
+
 #local host
  http://127.0.0.1:5000
  http://127.0.0.1:5000/test
@@ -13,3 +19,10 @@ win: venv\Scripts\activate
 mac: source venv/bin/activate
 
 python3 -m pip install flask
+pyhton3 -m pip install pymongo "pymongo "pymongo[srv]" certifi
+
+http methods and status codes
+
+Mongodb
+p:Test1234
+connectionstring:mongodb+srv://bowmanmarquice:<password>@cluster0.pcsducu.mongodb.net/?retryWrites=true&w=majority
